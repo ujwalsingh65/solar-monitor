@@ -1,0 +1,7 @@
+project_id = "debnyhafwifqjtfzqxsy"
+
+[functions.ingest-iot-data]
+verify_jwt = false
+
+[functions.daily-comparison-report]
+verify_jwt = false
