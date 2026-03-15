@@ -1,0 +1,19 @@
+# Cloudflare Pages configuration
+# https://developers.cloudflare.com/pages/
+
+name = "sun-peek-insight"
+compatibility_date = "2024-01-01"
+
+[vars]
+# Environment variables set here are available as plain text.
+# Sensitive keys (VITE_SUPABASE_URL, VITE_CLERK_PUBLISHABLE_KEY, etc.)
+# must be set via the Cloudflare dashboard → Pages → Settings → Environment variables.
+
+# Build configuration
+[build]
+command = "npm run build"
+output_dir = "dist"
+
+# Pages deployment configuration
+[pages_build_output_dir]
+path = "dist"
