@@ -1,0 +1,3 @@
+# Cloudflare Pages _redirects
+# Catch-all redirect for SPA routing — must be last
+/*    /index.html    200
